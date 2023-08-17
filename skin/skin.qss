@@ -1,0 +1,328 @@
+QWidget{
+	border-radius:5px;	/*设置圆角*/
+	font-size: 16px;
+	font-weight: bold; 
+	font-family: "微软雅黑";
+}
+
+QWidget#AdminFunc{
+	background-image: url(:/new/prefix1/Img/bg.jpg);
+}
+
+QWidget#w_AdminIDRS{
+	background:white;
+}
+
+QWidget#tab,#tab_2,#tab_3,#tab_4,#tab_5,#widget{
+	/*background-image: url(:/new/prefix1/Img/bg2.jpg);*/
+	border-radius:15px;	/*设置圆角*/
+}
+
+QLabel,QLineEdit,QDateTimeEdit,QDateEdit,QTextEdit,QComboBox
+{
+	border-style:outset;  /*边框风格*/ 
+	border-width:1px;  /*边框宽度*/  
+	border-color:rgb(10,45,110);  	/*边框颜色*/  
+}
+
+QLabel#label,#label_1,#label_2,#label_3,#label_4,#label_5,#label_6,#label_7,#label_8,#label_9,#label_10,#label_11,#label_12,#label_13,#label_14,#label_15,#label_16,#label_17{
+	/*background:transparent;*/	/*背景自适应*/
+	font-size: 16px;
+	color: red;
+	font-weight: bold; 
+	font-family: "微软雅黑";
+	min-width:120px;   
+    min-height:30px;
+	max-width:120px;   
+    max-height:30px;
+}
+QLabel#l_TX{
+	border-style:outset;  /*边框风格*/ 
+	border-width:0px;  /*边框宽度*/  
+	border-color:rgb(10,45,110);  	/*边框颜色*/  
+}
+QLabel#l_Label,#l_Name{
+	/*background:transparent*/;	/*背景自适应*/
+	font-size: 16px;
+	color: red;
+	font-weight: bold; 
+	font-family: "微软雅黑";
+	min-width:200px;   
+    min-height:30px;
+	max-width:200px;   
+    max-height:30px;
+	border-style:outset;  /*边框风格*/ 
+	border-width:0px;  /*边框宽度*/  
+	border-color:rgb(10,45,110);  	/*边框颜色*/  
+}
+
+QLabel#l_Title{/*标题修改*/
+	color: black;
+	font-size: 40px;
+	font-family: "微软雅黑";
+	border-style:outset;  /*边框风格*/ 
+	border-width:0px;  /*边框宽度*/  
+	border-color:rgb(10,45,110);  	/*边框颜色*/  
+}
+
+QLabel#l_BookTop,#l_ReaderTop{
+	/*background:transparent;*/	/*背景自适应*/
+	font-size: 16px;
+	color: red;
+	font-weight: bold; 
+	font-family: "微软雅黑";
+	min-width:200px;   
+    min-height:30px;
+	max-width:200px;   
+    max-height:30px;
+}
+
+QLineEdit{
+	/*background:#FFFFFF;*/	/*背景自适应*/
+	font-size: 16px;
+	color: red;
+	font-weight: bold; 
+	font-family: "微软雅黑";
+	min-width:200px;   
+    min-height:30px;
+	max-width:200px;   
+    max-height:30px;
+}
+
+QDateTimeEdit{
+	/*background:#FFFFFF;*/	/*背景自适应*/
+	font-size: 16px;
+	color: red;
+	font-weight: bold; 
+	font-family: "微软雅黑";
+	min-width:200px;   
+    min-height:30px;
+	max-width:200px;   
+    max-height:30px;
+}
+
+QDateEdit{
+	/*background:#FFFFFF;*/	/*背景自适应*/
+	font-size: 16px;
+	color: red;
+	font-weight: bold; 
+	font-family: "微软雅黑";
+	min-width:200px;   
+    min-height:30px;
+	max-width:200px;   
+    max-height:30px;
+}
+
+QComboBox{
+	/*background:#FFFFFF;*/	/*背景自适应*/
+	font-size: 16px;
+	color: red;
+	font-weight: bold; 
+	font-family: "微软雅黑";
+	min-width:200px;   
+    min-height:30px;
+	max-width:200px;   
+    max-height:30px;
+}
+
+
+/* 标题设置 */
+QGroupBox::title {
+    /* 位置 */
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+	font-size: 16px;
+	color: green;  
+    /*min-height:30px;  */
+    /*max-height:30px;*/
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FF0ECE, stop: 1 #FFFFFF);
+}
+
+QRadioButton{
+	/*background:#FFFFFF;*/	/*背景自适应*/
+	font-size: 16px;
+	color: red;
+	font-weight: bold; 
+	font-family: "微软雅黑";
+	min-width:120px;   
+    min-height:30px;
+	max-width:120px;   
+    max-height:30px;
+}
+
+QTextEdit{
+	color: red;
+}
+
+QPushButton{
+	background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(246,246,246),stop:1 rgb(218,218,218)); /*上下渐变*/
+	border-style:outset;  /*边框风格*/  
+	border-width:4px;  /*边框宽度*/  
+	border-color:rgb(10,45,110);  	/*边框颜色*/  
+	border-radius:10px;   /*边框倒角*/  
+	font-size: 16px;
+	color: red;
+	font-weight: bold; 
+	font-family: "微软雅黑";
+	min-width:80px;   
+    min-height:30px;
+	max-width:80px;   
+    max-height:30px;
+}
+
+
+QPushButton:normal/*鼠标正常时的效果*/
+{
+    color:#000000;
+    background-color:rgb(40, 85, 20); /*改变背景色*/
+    border-style:inset;/*改变边框风格*/
+    padding-left:4px;
+    padding-top:4px;
+}
+ 
+/*鼠标悬浮时的效果*/
+QPushButton:hover
+{
+    color:#0000ff;
+    background-color:rgb(158, 85, 20); /*改变背景色*/
+    border-style:inset;/*改变边框风格*/
+    padding-left:8px;
+    padding-top:8px;
+}
+/*如果按下与悬浮想同时产生效果，hover必须写在pressed的后面*/
+/*鼠标按下时的效果*/
+QPushButton:pressed
+{
+    color:#00ff00;
+    background-color:rgb(40, 85, 20); /*改变背景色*/
+    border-style:inset;/*改变边框风格*/
+    padding-left:6px;
+    padding-top:6px;
+}
+
+QPushButton#pb_Admin,#pb_JY,#pb_Borrow,#pb_Order,#pb_JYSC,#pb_ZNJ,#pb_Person,#pb_WB{
+	min-width:120px;   
+    min-height:30px;
+	max-width:120px;   
+    max-height:30px;
+}
+
+QHeaderView
+{
+    background:transparent;
+}
+
+QHeaderView::section
+{
+    font-size:14px;
+    font-family:"Microsoft YaHei";
+    color:#FFFFFF;
+    background:#60669B;
+    border:none;
+    text-align:left;
+    min-height:49px;
+    max-height:49px;
+    margin-left:0px;
+    padding-left:0px;
+}
+
+QTableWidget
+{
+    background:#FFFFFF;
+    border:none;
+    font-size:20px;
+    font-family:"Microsoft YaHei";
+    color:#666666;
+}
+QTableWidget::item
+{
+    border-bottom:1px solid #EEF1F7 ;
+}
+
+QTableWidget::item::selected
+{
+    color:red;
+    background:#EFF4FF;
+}
+
+
+QScrollBar:vertical{
+	margin:16px 0px 16px 0px;
+	background-color:rgb(11,54,117);
+	border:0px;
+	width:20px;
+
+}
+
+QScrollBar::handle:vertical{
+	background-color:rgba(59,103,168,190);
+	border-radius:7px;
+	width:13px;
+}
+
+QScrollBar::handle:vertical:hover{
+	background-color:rgba(59,103,168,220);
+}
+
+QScrollBar::sub-line:vertical{
+	subcontrol-position:top;
+	subcontrol-origin:margin;
+	background-color:rgb(11,54,117);
+	border:1px solid rgb(11,54,117);
+	height:16px;
+}
+
+QScrollBar::add-line:vertical{
+	subcontrol-position:bottom;
+	subcontrol-origin:margin;
+	background-color:rgb(11,54,117);
+	border:1px solid rgb(11,54,117);
+	height:16px;
+}
+
+QScrollBar::sub-page:vertical,QScrollBar::add-page:vertical{
+	background-color:rgb(11,54,117);
+}
+
+/*水平滚动条*/
+QScrollBar:horizontal{
+	margin:0px 16px 0px 16px;
+	background-color:rgb(11,54,117);
+	border:none;
+	height:20px;
+}
+
+
+QScrollBar::handle:horizontal{
+	background-color:rgba(59,103,168,190);
+	border-radius:7px;
+	height:20px;
+}
+
+
+QScrollBar::handle:horizontal:hover{
+	background-color:rgba(59,103,168,220);
+}
+
+QScrollBar::add-line:horizontal{
+	subcontrol-position: right;
+	subcontrol-origin:margin;
+	background-color:rgb(11,54,117);
+	border:1px solid rgb(11,54,117);
+	height:20px;
+	width:20px;
+}
+
+QScrollBar::sub-line:horizontal{
+	subcontrol-position: left;
+	subcontrol-origin:margin;
+	background-color:rgb(11,54,117);
+	border:1px solid rgb(11,54,117);
+	height:20px;
+	width:20px;
+}
+
+QScrollBar::sub-page:horizontal,QScrollBar::add-page:horizontal{
+	background-color:rgb(11,54,117);
+}
