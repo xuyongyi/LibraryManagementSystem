@@ -37,6 +37,8 @@
 ![image](https://github.com/loney123456/LibraryManagementSystem/assets/35869270/c3dcd6cc-cded-46bc-8c8c-b84078354012)
 ![image](https://github.com/loney123456/LibraryManagementSystem/assets/35869270/b4583f5c-e213-4984-b392-bc376f2e9679)
 ![image](https://github.com/loney123456/LibraryManagementSystem/assets/35869270/7c36ae15-4f79-4055-bbf0-b42f50979d4c)
+![image](https://github.com/loney123456/LibraryManagementSystem/assets/35869270/dc577f76-7d91-4a01-a7a7-6b2e7ac0c8f4)
+![image](https://github.com/loney123456/LibraryManagementSystem/assets/35869270/0aaea86a-9bfb-46ae-849f-d7c86a669ed3)
 
 
 软件的部分前台界面展示:
