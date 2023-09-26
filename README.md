@@ -3,6 +3,8 @@
 
 软件搭建环境：Windows10、Visual Studio2019、MySQL数据库v5.7、Navicat、Qt5
 
+本系统功能展示的视频链接：https://v.youku.com/v_show/id_XNjA1MjYwNjAzNg==.html
+
 项目描述：本系统是根据读者、图书管理员、系统管理员三个端的用户的不同需求来进行设计的。
 
 前端功能：
@@ -40,10 +42,6 @@
 所以如果要正常的运行的话，需要先自行在自己的电脑上搭建MySQL v5.7数据库的本地环境并且安装相关软件，
 
 然后在该服务器下创建一个名称为“book”的数据库，再导入相关的图书信息。
-
-
-本系统功能展示的视频链接：https://v.youku.com/v_show/id_XNjA1MjYwNjAzNg==.html
-
 
 软件的编译环境：
 
